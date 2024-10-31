@@ -131,6 +131,15 @@ namespace Main
             Console.WriteLine();
             UpcastingMostafa.Data();
 
+            Console.WriteLine();
+
+            // I noticed that I can upcasting to any super class in multi level inheritance.
+            
+            clsEmployee UpcastingEmployee = (clsEmployee)Mostafa;
+            UpcastingEmployee.Print();
+            Console.WriteLine();
+            UpcastingEmployee.Data();
+
         }
     }
 }
