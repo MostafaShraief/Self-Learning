@@ -96,6 +96,10 @@ namespace Main
 
         }
 
+        // Note : The only difference between overriding and hiding (shadowing) methodes :
+        // that overriding methode is used by base class when we do upcasting,
+        // at variance hidding methode, base class doesn`t use the hidding methode when we use upcasting
+
         static void Main(string[] args)
         {
 
