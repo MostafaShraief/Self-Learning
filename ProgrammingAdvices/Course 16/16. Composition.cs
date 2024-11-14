@@ -23,7 +23,7 @@ namespace Main
                 Console.WriteLine("Hi " + Name);
 
                 clsAddress address = new clsAddress(City);
-                Console.WriteLine("City: " + City);
+                Console.WriteLine("City: " + address.City);
             }
         }
 
