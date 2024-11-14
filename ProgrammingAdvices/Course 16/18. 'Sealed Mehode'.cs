@@ -26,8 +26,16 @@ public class Manager : Employee
     //{
     //    Console.WriteLine("The manager greets you warmly.");
     //}
+    // But This Will Not!
+    public new void Greet()
+    {
+        Console.WriteLine("The manager greets you warmly.");
+    }
 }
 
+// Notice That That We Can Fix The Isuue By Using Shadowing ('new' Keyword).
+// Notice That Base Functon Is Sealed By Default, That Why We Use Virtual Keyword.
+// Notice That 'sealed' Keyword Can be Used Only With Overrided Function.
 
 public class Program
 {
