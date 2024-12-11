@@ -25,7 +25,6 @@ public partial class clsPerson
 // implicitly private.
 // and cannot be virtual.
 
-
 public class Program
 {
     public static void Main(string[] args)
